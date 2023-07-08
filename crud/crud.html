@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administración de Fichas médicas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="crud.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD con Local Storage</h1>
+    </div>
+    <br>
+    <div class="container">
+      <div class="container">
+        <div class="row">
+            <div class=""> <!--Ingreso de datos-->
+                <input type="text" id="rutInput" placeholder="RUT" required>
+                <input type="text" id="nameInput" placeholder="Nombre" required>
+                <input type="text" id="emailInput" placeholder="Email" required>  
+                <button type="submit" id="addInput" onclick="addData()">Agregar Datos</button>
+                <button type="submit" id="updateInput">Actualizar Datos</button>
+            </div>
+        </div>
+        <hr>
+        <table class="table table-bordered" id="tableData">
+            <thead>
+                <tr>
+                    <th scope="col">RUT</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+          <tbody>
+  
+          </tbody>
+        </table>
+
+        </div>
+    </div>
+    <script src="crud.js"></script>
+</body>
+</html>
