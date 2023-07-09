@@ -89,12 +89,27 @@ p {
 .btn-know {
     margin-top: 15px;
 }
+
+#about div {
+  margin-top: 1px;
+} 
+
 .content {
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/*Esto es para darle un color particular al botón iniciar sesión usando una ID en particular*/
+#active {
+  background-color: #72afd3;
+  border-radius: 8px;
+}
+
+#active a {
+  color: #ffffff;
 }
 
 .sec {
@@ -122,19 +137,6 @@ p {
     border-radius: 1rem;
     margin: 2rem;
 }
-
-/*Faltan los iconos*/
-/*.box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #5e82a5;
-    font-size: 2rem;
-    margin: 1rem 0;
-}*/
 
 .box-container .box h3 {
     font-size: 20px;
