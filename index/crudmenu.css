@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+
+.buttonMenu {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
+}
+
+body {
+    background: linear-gradient(to bottom, #6cb8e8, #ffffff);
+  };

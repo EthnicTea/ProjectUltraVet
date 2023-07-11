@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administración de Fichas médicas</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <header class="container header">
+        <div>
+            <h1 class="title">Géstion de fichas de Mascotas</h1>
+        </div>
+    </header>
+    <br>
+    <div class="container crud">
+      <div class="container">
+        <div class="row">
+            <div> <!--Ingreso de datos-->
+                <input type="text" id="codInput" placeholder="Codigo" required>
+                <input type="text" id="namemsctInput" placeholder="Nombre Mascota" required>
+                <input type="text" id="ownInput" placeholder="Nombre Dueño" required>
+                <input type="text" id="pesoInput" placeholder="Peso" required>
+                <input type="text" id="razaInput" placeholder="Raza" required>
+                <input type="text" id="rutownInput" placeholder="RUT Dueño" required>
+                <button type="submit" id="addInput" onclick="addData()">Agregar Datos</button>
+                <button type="submit" id="updateInput">Actualizar Datos</button>
+            </div>
+        </div>
+        <hr>
+        <table class="table table-bordered" id="tableData">
+            <thead>
+                <tr>
+                    <th scope="col">Codigo Mascota</th>
+                    <th scope="col">Nombre Mascota</th>
+                    <th scope="col">Dueño Mascota</th>
+                    <th scope="col">Peso Mascota</th>
+                    <th scope="col">Raza Mascota</th>
+                    <th scope="col">RUT Dueño</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+          <tbody>
+  
+          </tbody>
+
+
+        </div>
+    </div>
+    <script src="crudanimal.js"></script>
+</body>
+</html>

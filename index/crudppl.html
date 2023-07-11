@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Administración de Fichas médicas</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="crud.css">
+    <link rel="stylesheet" href="crud.css">
 </head>
 <body>
-    <div class="container">
-        <h1>CRUD con Local Storage</h1>
-    </div>
+    <header class="container header">
+        <div>
+            <h1 class="title">Gestión de perfiles de personas</h1>
+        </div>
+    </header>
     <br>
-    <div class="container">
+    <div class="container crud">
       <div class="container">
         <div class="row">
-            <div class=""> <!--Ingreso de datos-->
+            <div> <!--Ingreso de datos-->
                 <input type="text" id="rutInput" placeholder="RUT" required>
                 <input type="text" id="nameInput" placeholder="Nombre" required>
-                <input type="text" id="emailInput" placeholder="Email" required>  
+                <input type="text" id="lastInput" placeholder="Apellido" required>
+                <input type="text" id="emailInput" placeholder="Email" required>
+                <input type="text" id="comInput" placeholder="Comuna" required>
+                <input type="text" id="celInput" placeholder="Número telefónico" required>
                 <button type="submit" id="addInput" onclick="addData()">Agregar Datos</button>
                 <button type="submit" id="updateInput">Actualizar Datos</button>
             </div>
@@ -27,7 +32,10 @@
                 <tr>
                     <th scope="col">RUT</th>
                     <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
                     <th scope="col">Email</th>
+                    <th scope="col">Comuna</th>
+                    <th scope="col">Teléfono</th>
                 </tr>
             </thead>
             <tbody>
@@ -37,10 +45,10 @@
           <tbody>
   
           </tbody>
-        </table>
+
 
         </div>
     </div>
-    <script src="crud.js"></script>
+    <script src="crudppl.js"></script>
 </body>
 </html>

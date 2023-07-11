@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginregister.css">
+</head>
+<body>
+    <main>
+        <div class="containerAll">
+            <div class="boxBack">
+                <div class="boxBackLogin">
+                    <h3>¿Ta tienes una cuenta?</h3>
+                    <p>Inicia sesión aquí</p>
+                    <button id="buttonLog">Ingresar</button>
+                </div>
+                <div class="boxBackRegister">
+                    <h3>Se parte de UltraVet</h3>
+                    <p>Crea una cuenta aquí</p>
+                    <button id="buttonReg">Registrarse</button>
+                </div>
+            </div>
+            <div class="containterLogReg">
+                <section action="" class="formLogin">
+                    <h2>Iniciar Sesión</h2>
+                    <input type="text" id="logMail" placeholder="Corre Electronico">
+                    <input type="password" id="logPass" placeholder="Contraseña">
+                    <button onclick="logaccount()">Entrar</button>
+                </section>
+                <section action="" class="formRegister">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre y Apellido">
+                    <input type="text" placeholder="RUT">
+                    <input type="text" id="regMail" placeholder="Correo">
+                    <input type="password" id="regPass" placeholder="Contraseña">
+                    <button onclick="registeraccount()">Registrarse</button>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="loginregister.js"></script>
+</body>
+</html>

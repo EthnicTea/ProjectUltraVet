@@ -1,0 +1,93 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(199, 246, 255);
+}
+
+.title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+}
+.crud {
+    padding: 50px;
+}
+
+input[type = text] {
+    color: #171717;
+    border-radius: 5px;
+    border: 1px solid transparent;
+ }
+
+/* Botón*/
+button {
+    background-color: #329fff;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+button:hover,
+button:focus {
+  background-color: #07c;
+}
+button:active {
+  background-color: #2a5979;
+}
+/* Botón Eliminar*/
+.delete {
+    background-color: #e20000;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+.delete:hover,
+.delete:focus {
+    background-color: #9c0808;
+}
+.delete:active {
+    background-color: #520000
+}
+
+.update {
+    background-color: #0044ff;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+.update:hover,
+.update:focus {
+    background-color: #2b4c94;
+}
+.update:active {
+    background-color: #0e2a79
+}
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#updateInput{
+    display: none;
+}
+
